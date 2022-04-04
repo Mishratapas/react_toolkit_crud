@@ -55,7 +55,7 @@ const Posts = () => {
             <button
               type='submit'
               className='btn btn-primary'
-              onClick={() => handleFetchData()}
+              onClick={handleFetchData}
             >
               Fetch Post
             </button>
